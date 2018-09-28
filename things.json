@@ -1,0 +1,3282 @@
+[
+    {
+        "name": "wooden_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "wood",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "iron_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 8
+            }
+        ]
+    },
+    {
+        "name": "steel_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "steel_plate",
+                "num": 8
+            }
+        ]
+    },
+    {
+        "name": "storage_tank",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 20
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "transport_belt",
+        "secs": 0.5,
+        "prod": 2,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "fast_transport_belt",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "transport_belt",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "express_transport_belt",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "fast_transport_belt",
+                "num": 1
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "lubricant",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "underground_belt",
+        "secs": 1,
+        "prod": 2,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 10
+            },
+            {
+                "name": "transport_belt",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "fast_underground_belt",
+        "secs": 2,
+        "prod": 2,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 40
+            },
+            {
+                "name": "underground_belt",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "express_underground_belt",
+        "secs": 2,
+        "prod": 2,
+        "components": [
+            {
+                "name": "fast_underground_belt",
+                "num": 2
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 80
+            },
+            {
+                "name": "lubricant",
+                "num": 40
+            }
+        ]
+    },
+    {
+        "name": "splitter",
+        "secs": 1,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            },
+            {
+                "name": "transport_belt",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "fast_splitter",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 10
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "splitter",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "express_splitter",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 10
+            },
+            {
+                "name": "fast_splitter",
+                "num": 1
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "lubricant",
+                "num": 80
+            }
+        ]
+    },
+    {
+        "name": "burner_inserter",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "inserter",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "long_handed_inserter",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "inserter",
+                "num": 1
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "fast_inserter",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "inserter",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "filter_inserter",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 4
+            },
+            {
+                "name": "fast_inserter",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "stack_inserter",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 15
+            },
+            {
+                "name": "fast_inserter",
+                "num": 1
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 15
+            }
+        ]
+    },
+    {
+        "name": "stack_filter_inserter",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            },
+            {
+                "name": "stack_inserter",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "small_electric_pole",
+        "secs": 0.5,
+        "prod": 2,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 2
+            },
+            {
+                "name": "wood",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "medium_electric_pole",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "big_electric_pole",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "substation",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "pipe",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "pipe_to_ground",
+        "secs": 0.5,
+        "prod": 2,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 5
+            },
+            {
+                "name": "pipe",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "pump",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "engine_unit",
+                "num": 1
+            },
+            {
+                "name": "pipe",
+                "num": 1
+            },
+            {
+                "name": "steel_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "rail",
+        "secs": 0.5,
+        "prod": 2,
+        "components": [
+            {
+                "name": "iron_stick",
+                "num": 1
+            },
+            {
+                "name": "steel_plate",
+                "num": 1
+            },
+            {
+                "name": "stone",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "train_stop",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 10
+            },
+            {
+                "name": "steel_plate",
+                "num": 3
+            }
+        ]
+    },
+    {
+        "name": "rail_signal",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "rail_chain_signal",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "locomotive",
+        "secs": 4,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 10
+            },
+            {
+                "name": "engine_unit",
+                "num": 20
+            },
+            {
+                "name": "steel_plate",
+                "num": 30
+            }
+        ]
+    },
+    {
+        "name": "cargo_wagon",
+        "secs": 1,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "iron_plate",
+                "num": 20
+            },
+            {
+                "name": "steel_plate",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "fluid_wagon",
+        "secs": 1.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "pipe",
+                "num": 8
+            },
+            {
+                "name": "steel_plate",
+                "num": 16
+            },
+            {
+                "name": "storage_tank",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "artillery_wagon",
+        "secs": 4,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 20
+            },
+            {
+                "name": "engine_unit",
+                "num": 64
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "pipe",
+                "num": 16
+            },
+            {
+                "name": "steel_plate",
+                "num": 40
+            }
+        ]
+    },
+    {
+        "name": "car",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "engine_unit",
+                "num": 8
+            },
+            {
+                "name": "iron_plate",
+                "num": 20
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "tank",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 10
+            },
+            {
+                "name": "engine_unit",
+                "num": 32
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 15
+            },
+            {
+                "name": "steel_plate",
+                "num": 50
+            }
+        ]
+    },
+    {
+        "name": "logistic_robot",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 2
+            },
+            {
+                "name": "flying_robot_frame",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "construction_robot",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "flying_robot_frame",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "active_provider_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "steel_chest",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "passive_provider_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "steel_chest",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "storage_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "steel_chest",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "buffer_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "steel_chest",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "requester_chest",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "steel_chest",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "roboport",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 45
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 45
+            },
+            {
+                "name": "steel_plate",
+                "num": 45
+            }
+        ]
+    },
+    {
+        "name": "lamp",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 1
+            },
+            {
+                "name": "iron_stick",
+                "num": 3
+            }
+        ]
+    },
+    {
+        "name": "red_wire",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "green_wire",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "arithmetic_combinator",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "decider_combinator",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "constant_combinator",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "power_switch",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "programmable_speaker",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 4
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "stone_brick",
+        "secs": 3.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "stone",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "concrete",
+        "secs": 10,
+        "prod": 10,
+        "components": [
+            {
+                "name": "iron_ore",
+                "num": 1
+            },
+            {
+                "name": "stone_brick",
+                "num": 5
+            },
+            {
+                "name": "water",
+                "num": 100
+            }
+        ]
+    },
+    {
+        "name": "hazard_concrete",
+        "secs": 0.25,
+        "prod": 10,
+        "components": [
+            {
+                "name": "concrete",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "refined_concrete",
+        "secs": 15,
+        "prod": 10,
+        "components": [
+            {
+                "name": "concrete",
+                "num": 20
+            },
+            {
+                "name": "iron_stick",
+                "num": 8
+            },
+            {
+                "name": "steel_plate",
+                "num": 1
+            },
+            {
+                "name": "water",
+                "num": 100
+            }
+        ]
+    },
+    {
+        "name": "refined_hazard_concrete",
+        "secs": 0.25,
+        "prod": 10,
+        "components": [
+            {
+                "name": "refined_concrete",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "landfill",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "stone",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "cliff_explosives",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "empty_barrel",
+                "num": 1
+            },
+            {
+                "name": "explosives",
+                "num": 10
+            },
+            {
+                "name": "grenade",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "iron_axe",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 3
+            },
+            {
+                "name": "iron_stick",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "steel_axe",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_stick",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "repair_pack",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "blueprint",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "deconstruction_planner",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "blueprint_book",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "boiler",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "pipe",
+                "num": 4
+            },
+            {
+                "name": "stone_furnace",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "steam_engine",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 8
+            },
+            {
+                "name": "iron_plate",
+                "num": 10
+            },
+            {
+                "name": "pipe",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "steam_turbine",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 50
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 50
+            },
+            {
+                "name": "pipe",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "solar_panel",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 15
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "accumulator",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "battery",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "nuclear_reactor",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 500
+            },
+            {
+                "name": "concrete",
+                "num": 500
+            },
+            {
+                "name": "copper_plate",
+                "num": 500
+            },
+            {
+                "name": "steel_plate",
+                "num": 500
+            }
+        ]
+    },
+    {
+        "name": "heat_exchanger",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 100
+            },
+            {
+                "name": "pipe",
+                "num": 10
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "heat_pipe",
+        "secs": 1,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 20
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "burner_mining_drill",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 3
+            },
+            {
+                "name": "iron_plate",
+                "num": 3
+            },
+            {
+                "name": "stone_furnace",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "electric_mining_drill",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "offshore_pump",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 1
+            },
+            {
+                "name": "pipe",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "pumpjack",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "pipe",
+                "num": 10
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "stone_furnace",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "stone",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "steel_furnace",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "steel_plate",
+                "num": 6
+            },
+            {
+                "name": "stone_brick",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "electric_furnace",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            },
+            {
+                "name": "stone_brick",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "assembling_machine_1",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 9
+            }
+        ]
+    },
+    {
+        "name": "assembling_machine_2",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "assembling_machine_1",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 9
+            }
+        ]
+    },
+    {
+        "name": "assembling_machine_3",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "assembling_machine_2",
+                "num": 2
+            },
+            {
+                "name": "speed_module",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "oil_refinery",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 10
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "pipe",
+                "num": 10
+            },
+            {
+                "name": "steel_plate",
+                "num": 15
+            },
+            {
+                "name": "stone_brick",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "chemical_plant",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "pipe",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "centrifuge",
+        "secs": 4,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 100
+            },
+            {
+                "name": "concrete",
+                "num": 100
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 100
+            },
+            {
+                "name": "steel_plate",
+                "num": 50
+            }
+        ]
+    },
+    {
+        "name": "lab",
+        "secs": 2,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 10
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "transport_belt",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "beacon",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 20
+            },
+            {
+                "name": "copper_cable",
+                "num": 10
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 20
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "speed_module",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "speed_module_2",
+        "secs": 30,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 5
+            },
+            {
+                "name": "speed_module",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "speed_module_3",
+        "secs": 60,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 5
+            },
+            {
+                "name": "speed_module_2",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "efficiency_module",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "efficiency_module_2",
+        "secs": 30,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "efficiency_module",
+                "num": 4
+            },
+            {
+                "name": "processing_unit",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "efficiency_module_3",
+        "secs": 60,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "efficiency_module_2",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "productivity_module",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "productivity_module_2",
+        "secs": 30,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 5
+            },
+            {
+                "name": "productivity_module",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "productivity_module_3",
+        "secs": 60,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 5
+            },
+            {
+                "name": "productivity_module_2",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "raw_wood",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "coal",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "stone",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "iron_ore",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "copper_ore",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "uranium_ore",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "raw_fish",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "crude_oil",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "heavy_oil",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "light_oil",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "lubricant",
+        "secs": 1,
+        "prod": 10,
+        "components": [
+            {
+                "name": "heavy_oil",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "petroleum_gas",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "sulfuric_acid",
+        "secs": 1,
+        "prod": 50,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 1
+            },
+            {
+                "name": "sulfur",
+                "num": 5
+            },
+            {
+                "name": "water",
+                "num": 100
+            }
+        ]
+    },
+    {
+        "name": "water",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "steam",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "wood",
+        "secs": 0.5,
+        "prod": 2,
+        "components": [
+            {
+                "name": "raw_wood",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "iron_plate",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "copper_plate",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "solid_fuel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "steel_plate",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "plastic_bar",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "sulfur",
+        "secs": 1,
+        "prod": 2,
+        "components": [
+            {
+                "name": "petroleum_gas",
+                "num": 30
+            },
+            {
+                "name": "water",
+                "num": 30
+            }
+        ]
+    },
+    {
+        "name": "battery",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 1
+            },
+            {
+                "name": "sulfuric_acid",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "explosives",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "crude_oil_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "heavy_oil_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "light_oil_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "lubricant_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "petroleum_gas_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "sulfuric_acid_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "water_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "copper_cable",
+        "secs": 0.5,
+        "prod": 2,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "iron_stick",
+        "secs": 0.5,
+        "prod": 2,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "iron_gear_wheel",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "empty_barrel",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "electronic_circuit",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 3
+            },
+            {
+                "name": "iron_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "advanced_circuit",
+        "secs": 6,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_cable",
+                "num": 4
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "plastic_bar",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "processing_unit",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 2
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 20
+            },
+            {
+                "name": "sulfuric_acid",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "engine_unit",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 1
+            },
+            {
+                "name": "pipe",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "electric_engine_unit",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "engine_unit",
+                "num": 1
+            },
+            {
+                "name": "lubricant",
+                "num": 15
+            }
+        ]
+    },
+    {
+        "name": "flying_robot_frame",
+        "secs": 20,
+        "prod": 1,
+        "components": [
+            {
+                "name": "battery",
+                "num": 2
+            },
+            {
+                "name": "electric_engine_unit",
+                "num": 1
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "steel_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "satellite",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "accumulator",
+                "num": 100
+            },
+            {
+                "name": "low_density_structure",
+                "num": 100
+            },
+            {
+                "name": "processing_unit",
+                "num": 100
+            },
+            {
+                "name": "radar",
+                "num": 5
+            },
+            {
+                "name": "rocket_fuel",
+                "num": 50
+            },
+            {
+                "name": "solar_panel",
+                "num": 100
+            }
+        ]
+    },
+    {
+        "name": "rocket_part",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "low_density_structure",
+                "num": 10
+            },
+            {
+                "name": "rocket_control_unit",
+                "num": 10
+            },
+            {
+                "name": "rocket_fuel",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "rocket_control_unit",
+        "secs": 30,
+        "prod": 1,
+        "components": [
+            {
+                "name": "processing_unit",
+                "num": 1
+            },
+            {
+                "name": "speed_module",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "low_density_structure",
+        "secs": 30,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "plastic_bar",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "rocket_fuel",
+        "secs": 30,
+        "prod": 1,
+        "components": [
+            {
+                "name": "solid_fuel",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "nuclear_fuel",
+        "secs": 60,
+        "prod": 1,
+        "components": [
+            {
+                "name": "rocket_fuel",
+                "num": 1
+            },
+            {
+                "name": "uranium-235",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "uranium-235",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "uranium-238",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "uranium_fuel_cell",
+        "secs": 10,
+        "prod": 10,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 10
+            },
+            {
+                "name": "uranium-235",
+                "num": 1
+            },
+            {
+                "name": "uranium-238",
+                "num": 19
+            }
+        ]
+    },
+    {
+        "name": "used_up_uranium_fuel_cell",
+        "secs": 200,
+        "prod": 1,
+        "components": [
+            {
+                "name": "uranium_fuel_cell",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "science_pack_1",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 1
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "science_pack_2",
+        "secs": 6,
+        "prod": 1,
+        "components": [
+            {
+                "name": "inserter",
+                "num": 1
+            },
+            {
+                "name": "transport_belt",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "science_pack_3",
+        "secs": 12,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "electric_mining_drill",
+                "num": 1
+            },
+            {
+                "name": "engine_unit",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "military_science_pack",
+        "secs": 10,
+        "prod": 2,
+        "components": [
+            {
+                "name": "grenade",
+                "num": 1
+            },
+            {
+                "name": "gun_turret",
+                "num": 1
+            },
+            {
+                "name": "piercing_rounds_magazine",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "production_science_pack",
+        "secs": 14,
+        "prod": 2,
+        "components": [
+            {
+                "name": "electric_engine_unit",
+                "num": 1
+            },
+            {
+                "name": "electric_furnace",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "high_tech_science_pack",
+        "secs": 14,
+        "prod": 2,
+        "components": [
+            {
+                "name": "battery",
+                "num": 1
+            },
+            {
+                "name": "copper_cable",
+                "num": 30
+            },
+            {
+                "name": "processing_unit",
+                "num": 3
+            },
+            {
+                "name": "speed_module",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "space_science_pack",
+        "secs": 1,
+        "prod": 26.66,
+        "components": []
+    },
+    {
+        "name": "pistol",
+        "secs": 5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "submachine_gun",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "iron_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "shotgun",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 10
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 15
+            },
+            {
+                "name": "wood",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "combat_shotgun",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 10
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 15
+            },
+            {
+                "name": "wood",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "rocket_launcher",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "flamethrower",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "land_mine",
+        "secs": 5,
+        "prod": 4,
+        "components": [
+            {
+                "name": "explosives",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "firearm_magazine",
+        "secs": 1,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "piercing_rounds_magazine",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "firearm_magazine",
+                "num": 1
+            },
+            {
+                "name": "steel_plate",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "uranium_rounds_magazine",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "piercing_rounds_magazine",
+                "num": 1
+            },
+            {
+                "name": "uranium-238",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "shotgun_shells",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 2
+            },
+            {
+                "name": "iron_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "piercing_shotgun_shells",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 5
+            },
+            {
+                "name": "shotgun_shells",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "cannon_shell",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "explosives",
+                "num": 1
+            },
+            {
+                "name": "plastic_bar",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "explosive_cannon_shell",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "explosives",
+                "num": 2
+            },
+            {
+                "name": "plastic_bar",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "uranium_cannon_shell",
+        "secs": 12,
+        "prod": 1,
+        "components": [
+            {
+                "name": "cannon_shell",
+                "num": 1
+            },
+            {
+                "name": "uranium-238",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "explosive_uranium_cannon_shell",
+        "secs": 12,
+        "prod": 1,
+        "components": [
+            {
+                "name": "explosive_cannon_shell",
+                "num": 1
+            },
+            {
+                "name": "uranium-238",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "artillery_shell",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "explosive_cannon_shell",
+                "num": 4
+            },
+            {
+                "name": "explosives",
+                "num": 8
+            },
+            {
+                "name": "radar",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "rocket",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            },
+            {
+                "name": "explosives",
+                "num": 1
+            },
+            {
+                "name": "iron_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "explosive_rocket",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "explosives",
+                "num": 2
+            },
+            {
+                "name": "rocket",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "atomic_bomb",
+        "secs": 50,
+        "prod": 1,
+        "components": [
+            {
+                "name": "explosives",
+                "num": 10
+            },
+            {
+                "name": "processing_unit",
+                "num": 20
+            },
+            {
+                "name": "uranium-235",
+                "num": 30
+            }
+        ]
+    },
+    {
+        "name": "flamethrower_ammo",
+        "secs": 6,
+        "prod": 1,
+        "components": [
+            {
+                "name": "heavy_oil",
+                "num": 50
+            },
+            {
+                "name": "light_oil",
+                "num": 50
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "grenade",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "coal",
+                "num": 10
+            },
+            {
+                "name": "iron_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "cluster_grenade",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "explosives",
+                "num": 5
+            },
+            {
+                "name": "grenade",
+                "num": 7
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "poison_capsule",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "coal",
+                "num": 10
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 3
+            },
+            {
+                "name": "steel_plate",
+                "num": 3
+            }
+        ]
+    },
+    {
+        "name": "slowdown_capsule",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "coal",
+                "num": 5
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 2
+            }
+        ]
+    },
+    {
+        "name": "defender_capsule",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 3
+            },
+            {
+                "name": "piercing_rounds_magazine",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "distractor_capsule",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 3
+            },
+            {
+                "name": "defender_capsule",
+                "num": 4
+            }
+        ]
+    },
+    {
+        "name": "destroyer_capsule",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "distractor_capsule",
+                "num": 4
+            },
+            {
+                "name": "speed_module",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "discharge_defense_remote",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "artillery_targeting_remote",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "processing_unit",
+                "num": 1
+            },
+            {
+                "name": "radar",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "light_armor",
+        "secs": 3,
+        "prod": 1,
+        "components": [
+            {
+                "name": "iron_plate",
+                "num": 40
+            }
+        ]
+    },
+    {
+        "name": "heavy_armor",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 100
+            },
+            {
+                "name": "steel_plate",
+                "num": 50
+            }
+        ]
+    },
+    {
+        "name": "modular_armor",
+        "secs": 15,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 30
+            },
+            {
+                "name": "steel_plate",
+                "num": 50
+            }
+        ]
+    },
+    {
+        "name": "power_armor",
+        "secs": 20,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electric_engine_unit",
+                "num": 20
+            },
+            {
+                "name": "processing_unit",
+                "num": 40
+            },
+            {
+                "name": "steel_plate",
+                "num": 40
+            }
+        ]
+    },
+    {
+        "name": "power_armor_mk2",
+        "secs": 25,
+        "prod": 1,
+        "components": [
+            {
+                "name": "efficiency_module_3",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 40
+            },
+            {
+                "name": "speed_module_3",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 40
+            }
+        ]
+    },
+    {
+        "name": "portable_solar_panel",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 1
+            },
+            {
+                "name": "solar_panel",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "portable_fusion_reactor",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "processing_unit",
+                "num": 250
+            }
+        ]
+    },
+    {
+        "name": "energy_shield",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "energy_shield_mk2",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "energy_shield",
+                "num": 10
+            },
+            {
+                "name": "processing_unit",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "personal_battery",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "battery",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "personal_battery_mk2",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "battery_mk1",
+                "num": 10
+            },
+            {
+                "name": "processing_unit",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "personal_laser_defense",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "laser_turret",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 1
+            },
+            {
+                "name": "steel_plate",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "discharge_defense",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "laser_turret",
+                "num": 10
+            },
+            {
+                "name": "processing_unit",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "exoskeleton",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electric_engine_unit",
+                "num": 30
+            },
+            {
+                "name": "processing_unit",
+                "num": 10
+            },
+            {
+                "name": "steel_plate",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "personal_roboport",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 10
+            },
+            {
+                "name": "battery",
+                "num": 45
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 40
+            },
+            {
+                "name": "steel_plate",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "personal_roboport_mk2",
+        "secs": 20,
+        "prod": 1,
+        "components": [
+            {
+                "name": "personal_roboport",
+                "num": 5
+            },
+            {
+                "name": "processing_unit",
+                "num": 100
+            }
+        ]
+    },
+    {
+        "name": "nightvision",
+        "secs": 10,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 5
+            },
+            {
+                "name": "steel_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "stone_wall",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "stone_brick",
+                "num": 5
+            }
+        ]
+    },
+    {
+        "name": "gate",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 2
+            },
+            {
+                "name": "steel_plate",
+                "num": 2
+            },
+            {
+                "name": "stone_wall",
+                "num": 1
+            }
+        ]
+    },
+    {
+        "name": "gun_turret",
+        "secs": 8,
+        "prod": 1,
+        "components": [
+            {
+                "name": "copper_plate",
+                "num": 10
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 10
+            },
+            {
+                "name": "iron_plate",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "laser_turret",
+        "secs": 20,
+        "prod": 1,
+        "components": [
+            {
+                "name": "battery",
+                "num": 12
+            },
+            {
+                "name": "electronic_circuit",
+                "num": 20
+            },
+            {
+                "name": "steel_plate",
+                "num": 20
+            }
+        ]
+    },
+    {
+        "name": "flamethrower_turret",
+        "secs": 20,
+        "prod": 1,
+        "components": [
+            {
+                "name": "engine_unit",
+                "num": 5
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 15
+            },
+            {
+                "name": "pipe",
+                "num": 10
+            },
+            {
+                "name": "steel_plate",
+                "num": 30
+            }
+        ]
+    },
+    {
+        "name": "artillery_turret",
+        "secs": 40,
+        "prod": 1,
+        "components": [
+            {
+                "name": "advanced_circuit",
+                "num": 20
+            },
+            {
+                "name": "concrete",
+                "num": 60
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 40
+            },
+            {
+                "name": "steel_plate",
+                "num": 60
+            }
+        ]
+    },
+    {
+        "name": "radar",
+        "secs": 0.5,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electronic_circuit",
+                "num": 5
+            },
+            {
+                "name": "iron_gear_wheel",
+                "num": 5
+            },
+            {
+                "name": "iron_plate",
+                "num": 10
+            }
+        ]
+    },
+    {
+        "name": "rocket_silo",
+        "secs": 30,
+        "prod": 1,
+        "components": [
+            {
+                "name": "electric_engine_unit",
+                "num": 200
+            },
+            {
+                "name": "pipe",
+                "num": 100
+            },
+            {
+                "name": "processing_unit",
+                "num": 200
+            }
+        ]
+    }
+]

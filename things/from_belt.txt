@@ -1,0 +1,7 @@
+iron_plate
+copper_plate
+steel_plate
+plastic_bar
+explosives
+uranium-235
+uranium-238
